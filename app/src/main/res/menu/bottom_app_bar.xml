@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="ExtraText">
+
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_setting"
+        android:title="Setting"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_share"
+        android:title="Share"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/ic_menu"
+        android:title="Share"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/check_list"
+        android:icon="@drawable/ic_checklist"
+        android:title="Check List"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/photo"
+        android:icon="@drawable/ic_camera"
+        android:title="Photo"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/scan_photo"
+                android:title="Scan Photo" />
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/pen"
+        android:icon="@drawable/ic_pen"
+        android:title="Pen"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/edit_note"
+        android:icon="@drawable/ic_edit_note"
+        android:title="Edit Note"
+        app:showAsAction="never" />
+
+</menu>

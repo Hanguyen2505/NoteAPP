@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TakeNoteActivity">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp">
+
+    </FrameLayout>
+
+    <EditText
+        android:id="@+id/note_title"
+        style="@style/NoUnderlineEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:hint="Title"
+        android:minHeight="70dp"
+        android:textColorHint="#78909C"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/note_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/note_title"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="@android:color/transparent"
+        android:scrollbars="vertical"
+        android:textSize="25dp"
+        android:hint="Note Detail"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_app_bar"
+        app:menu="@menu/bottom_app_bar"
+        android:backgroundTint="@color/white"
+        android:layout_alignParentBottom="true"
+        tools:ignore="BottomAppBar">
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+</RelativeLayout>

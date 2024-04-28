@@ -1,0 +1,9 @@
+
+x
+java:S1104"[Make NOTE_EDIT_EXTRA a static final constant or non-public and provide accessors if needed.(ëĞù8ÜÑ˜–ò1
+R
+java:S1444"5Make this "public static NOTE_EDIT_EXTRA" field final(ëĞù8İÑ˜–ò1
+w
+java:S3008"ZRename this field "NOTE_EDIT_EXTRA" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ëĞù8åÑ˜–ò1
+X
+java:S1751"6Remove this "return" statement or make it conditional.(×‡î±ùÿÿÿÿ8¹‰š–ò1

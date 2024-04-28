@@ -1,0 +1,10 @@
+
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ú€µ¸8ƒ±™€ò1
+y
+java:S1104
+"WMake noteManager a static final constant or non-public and provide accessors if needed.(’îÂ¹şÿÿÿÿ8„±™€ò1
+S
+java:S1444
+"1Make this "public static noteManager" field final(’îÂ¹şÿÿÿÿ8„±™€ò1
+£
+java:S1186."€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÄÜ»ûÿÿÿÿ8’±™€ò1
